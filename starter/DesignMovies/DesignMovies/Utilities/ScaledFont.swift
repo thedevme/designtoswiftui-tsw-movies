@@ -52,5 +52,7 @@ enum CustomFont: String {
     case heavy = "AvenirNextCondensed-Heavy"
     case regular = "AvenirNextCondensed-Regular"
     case black = "Avenir-Black"
+    case rating = "LinLibertineB"
+    case futuraBold = "Futura-CondensedExtraBold"
 }
 

@@ -9,9 +9,7 @@ import SwiftUI
 
 @main
 struct DesignMoviesApp: App {
-    
-    @StateObject private var cart = ShoppingCart()
-    
+
     init() {
         for family in UIFont.familyNames {
             let sName: String = family as String
@@ -26,7 +24,6 @@ struct DesignMoviesApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .environmentObject(cart)
         }
     }
 }

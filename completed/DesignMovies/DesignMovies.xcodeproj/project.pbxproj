@@ -23,11 +23,12 @@
 		4626C5F3251C39B400E973E7 /* SeatSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4626C5F2251C39B400E973E7 /* SeatSelectionView.swift */; };
 		4626C5F8251C3BD100E973E7 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4626C5F7251C3BD100E973E7 /* HeaderView.swift */; };
 		4626C5FD251C438A00E973E7 /* MovieDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4626C5FC251C438A00E973E7 /* MovieDetailView.swift */; };
-		4626C600251C45ED00E973E7 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4626C5FF251C45ED00E973E7 /* Home.swift */; };
 		4626C603251C4F1800E973E7 /* TicketsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4626C602251C4F1800E973E7 /* TicketsView.swift */; };
-		4626C606251C52E800E973E7 /* StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4626C605251C52E800E973E7 /* StepperView.swift */; };
 		4626C609251C537B00E973E7 /* AddToCartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4626C608251C537B00E973E7 /* AddToCartButton.swift */; };
-		4626C60D251C5E6A00E973E7 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4626C60C251C5E6A00E973E7 /* ProgressView.swift */; };
+		462C2C492538041A00E611FB /* MockDataPreviewService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462C2C482538041A00E611FB /* MockDataPreviewService.swift */; };
+		462C2C4E253805CD00E611FB /* CheckoutProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462C2C4D253805CD00E611FB /* CheckoutProgressView.swift */; };
+		462C2C5725380C6600E611FB /* CartItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462C2C5625380C6600E611FB /* CartItem.swift */; };
+		462C2C5A25380C7200E611FB /* ShopItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462C2C5925380C7200E611FB /* ShopItem.swift */; };
 		46413B92252446840075476A /* SeatToggleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46413B91252446840075476A /* SeatToggleStyle.swift */; };
 		46413B952524475F0075476A /* LoveSeatButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46413B942524475F0075476A /* LoveSeatButtonView.swift */; };
 		46589A28251D7BA9009D6FE4 /* TicketRowItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46589A27251D7BA9009D6FE4 /* TicketRowItem.swift */; };
@@ -37,12 +38,7 @@
 		466BA653251AB5D100D13499 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 466BA652251AB5D100D13499 /* Assets.xcassets */; };
 		466BA656251AB5D100D13499 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 466BA655251AB5D100D13499 /* Preview Assets.xcassets */; };
 		46B7252F251D48FE002CB04C /* LinLibertine_RB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46B7252E251D48FE002CB04C /* LinLibertine_RB.ttf */; };
-		46F987B32525362B00FFBB42 /* SummaryHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F987B22525362B00FFBB42 /* SummaryHeaderView.swift */; };
-		46F987B8252536F600FFBB42 /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F987B7252536F600FFBB42 /* SummaryView.swift */; };
-		46F987BB2525375200FFBB42 /* SummaryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F987BA2525375200FFBB42 /* SummaryItemView.swift */; };
-		46F987C62525A0B300FFBB42 /* SeatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F987C52525A0B300FFBB42 /* SeatsView.swift */; };
-		46F987C92525A8B900FFBB42 /* ShoppingCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F987C82525A8B900FFBB42 /* ShoppingCart.swift */; };
-		46F987D32526157F00FFBB42 /* MovieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F987D22526157F00FFBB42 /* MovieViewModel.swift */; };
+		46E425142538B11400738B9A /* SeatButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E425132538B11400738B9A /* SeatButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,11 +58,12 @@
 		4626C5F2251C39B400E973E7 /* SeatSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatSelectionView.swift; sourceTree = "<group>"; };
 		4626C5F7251C3BD100E973E7 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		4626C5FC251C438A00E973E7 /* MovieDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailView.swift; sourceTree = "<group>"; };
-		4626C5FF251C45ED00E973E7 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		4626C602251C4F1800E973E7 /* TicketsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsView.swift; sourceTree = "<group>"; };
-		4626C605251C52E800E973E7 /* StepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperView.swift; sourceTree = "<group>"; };
 		4626C608251C537B00E973E7 /* AddToCartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToCartButton.swift; sourceTree = "<group>"; };
-		4626C60C251C5E6A00E973E7 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		462C2C482538041A00E611FB /* MockDataPreviewService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDataPreviewService.swift; sourceTree = "<group>"; };
+		462C2C4D253805CD00E611FB /* CheckoutProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutProgressView.swift; sourceTree = "<group>"; };
+		462C2C5625380C6600E611FB /* CartItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItem.swift; sourceTree = "<group>"; };
+		462C2C5925380C7200E611FB /* ShopItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopItem.swift; sourceTree = "<group>"; };
 		46413B91252446840075476A /* SeatToggleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatToggleStyle.swift; sourceTree = "<group>"; };
 		46413B942524475F0075476A /* LoveSeatButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveSeatButtonView.swift; sourceTree = "<group>"; };
 		46589A27251D7BA9009D6FE4 /* TicketRowItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketRowItem.swift; sourceTree = "<group>"; };
@@ -78,12 +75,7 @@
 		466BA655251AB5D100D13499 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		466BA657251AB5D100D13499 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46B7252E251D48FE002CB04C /* LinLibertine_RB.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LinLibertine_RB.ttf; sourceTree = "<group>"; };
-		46F987B22525362B00FFBB42 /* SummaryHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryHeaderView.swift; sourceTree = "<group>"; };
-		46F987B7252536F600FFBB42 /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
-		46F987BA2525375200FFBB42 /* SummaryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryItemView.swift; sourceTree = "<group>"; };
-		46F987C52525A0B300FFBB42 /* SeatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatsView.swift; sourceTree = "<group>"; };
-		46F987C82525A8B900FFBB42 /* ShoppingCart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCart.swift; sourceTree = "<group>"; };
-		46F987D22526157F00FFBB42 /* MovieViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewModel.swift; sourceTree = "<group>"; };
+		46E425132538B11400738B9A /* SeatButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeatButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,7 +119,6 @@
 		4626C5E9251C36CB00E973E7 /* Supporting Views */ = {
 			isa = PBXGroup;
 			children = (
-				46F987B12525361000FFBB42 /* Seating */,
 				4626C60B251C5E5F00E973E7 /* Shared */,
 				4626C5F6251C3BBE00E973E7 /* Ticketing */,
 			);
@@ -140,8 +131,7 @@
 				46F987DA25263D0200FFBB42 /* Misc */,
 				4626C5E9251C36CB00E973E7 /* Supporting Views */,
 				4626C5ED251C39A700E973E7 /* TicketingView.swift */,
-				4626C5F2251C39B400E973E7 /* SeatSelectionView.swift */,
-				4626C5FF251C45ED00E973E7 /* Home.swift */,
+				46E425132538B11400738B9A /* SeatButtonView.swift */,
 				466BA650251AB5D000D13499 /* ContentView.swift */,
 			);
 			path = Views;
@@ -166,7 +156,6 @@
 				4626C602251C4F1800E973E7 /* TicketsView.swift */,
 				46589A2A251D7BF0009D6FE4 /* TicketRowHeader.swift */,
 				4626C608251C537B00E973E7 /* AddToCartButton.swift */,
-				4626C605251C52E800E973E7 /* StepperView.swift */,
 				46589A27251D7BA9009D6FE4 /* TicketRowItem.swift */,
 			);
 			path = Ticketing;
@@ -175,9 +164,19 @@
 		4626C60B251C5E5F00E973E7 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				4626C60C251C5E6A00E973E7 /* ProgressView.swift */,
+				462C2C4D253805CD00E611FB /* CheckoutProgressView.swift */,
 			);
 			path = Shared;
+			sourceTree = "<group>";
+		};
+		462C2C47253803FE00E611FB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				462C2C482538041A00E611FB /* MockDataPreviewService.swift */,
+				462C2C5625380C6600E611FB /* CartItem.swift */,
+				462C2C5925380C7200E611FB /* ShopItem.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		466BA642251AB5D000D13499 = {
@@ -199,10 +198,10 @@
 		466BA64D251AB5D000D13499 /* DesignMovies */ = {
 			isa = PBXGroup;
 			children = (
+				462C2C47253803FE00E611FB /* Model */,
 				4626C5DB251BE64000E973E7 /* Utilities */,
 				4626C5EB251C36FB00E973E7 /* Application */,
 				4626C5EA251C36DA00E973E7 /* Views */,
-				46F987D925263CCB00FFBB42 /* Model */,
 				466BA654251AB5D100D13499 /* Preview Content */,
 			);
 			path = DesignMovies;
@@ -216,30 +215,11 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		46F987B12525361000FFBB42 /* Seating */ = {
-			isa = PBXGroup;
-			children = (
-				46F987C52525A0B300FFBB42 /* SeatsView.swift */,
-				46F987B22525362B00FFBB42 /* SummaryHeaderView.swift */,
-				46F987B7252536F600FFBB42 /* SummaryView.swift */,
-				46F987BA2525375200FFBB42 /* SummaryItemView.swift */,
-			);
-			path = Seating;
-			sourceTree = "<group>";
-		};
-		46F987D925263CCB00FFBB42 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				46F987C82525A8B900FFBB42 /* ShoppingCart.swift */,
-				46F987D22526157F00FFBB42 /* MovieViewModel.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		46F987DA25263D0200FFBB42 /* Misc */ = {
 			isa = PBXGroup;
 			children = (
 				46413B91252446840075476A /* SeatToggleStyle.swift */,
+				4626C5F2251C39B400E973E7 /* SeatSelectionView.swift */,
 				46413B942524475F0075476A /* LoveSeatButtonView.swift */,
 			);
 			path = Misc;
@@ -324,30 +304,26 @@
 			files = (
 				466BA651251AB5D000D13499 /* ContentView.swift in Sources */,
 				46589A28251D7BA9009D6FE4 /* TicketRowItem.swift in Sources */,
+				462C2C5A25380C7200E611FB /* ShopItem.swift in Sources */,
+				46E425142538B11400738B9A /* SeatButtonView.swift in Sources */,
 				4626C5C4251BE33900E973E7 /* Palette+Color.swift in Sources */,
 				46589A2B251D7BF0009D6FE4 /* TicketRowHeader.swift in Sources */,
 				4626C5C7251BE44A00E973E7 /* DefaultPreview.swift in Sources */,
 				4626C5EE251C39A700E973E7 /* TicketingView.swift in Sources */,
 				4626C609251C537B00E973E7 /* AddToCartButton.swift in Sources */,
-				46F987BB2525375200FFBB42 /* SummaryItemView.swift in Sources */,
 				466BA64F251AB5D000D13499 /* DesignMoviesApp.swift in Sources */,
-				46F987C62525A0B300FFBB42 /* SeatsView.swift in Sources */,
-				46F987B32525362B00FFBB42 /* SummaryHeaderView.swift in Sources */,
 				4626C5F8251C3BD100E973E7 /* HeaderView.swift in Sources */,
 				4626C5D8251BE62F00E973E7 /* ScaledFont.swift in Sources */,
-				46F987D32526157F00FFBB42 /* MovieViewModel.swift in Sources */,
+				462C2C492538041A00E611FB /* MockDataPreviewService.swift in Sources */,
 				4626C5D9251BE62F00E973E7 /* CustomTextStyle.swift in Sources */,
 				46413B952524475F0075476A /* LoveSeatButtonView.swift in Sources */,
-				4626C606251C52E800E973E7 /* StepperView.swift in Sources */,
+				462C2C4E253805CD00E611FB /* CheckoutProgressView.swift in Sources */,
 				4626C5F3251C39B400E973E7 /* SeatSelectionView.swift in Sources */,
 				4626C5DF251BF1B200E973E7 /* RoundedCorners.swift in Sources */,
 				4626C603251C4F1800E973E7 /* TicketsView.swift in Sources */,
-				4626C60D251C5E6A00E973E7 /* ProgressView.swift in Sources */,
-				4626C600251C45ED00E973E7 /* Home.swift in Sources */,
 				46413B92252446840075476A /* SeatToggleStyle.swift in Sources */,
-				46F987C92525A8B900FFBB42 /* ShoppingCart.swift in Sources */,
+				462C2C5725380C6600E611FB /* CartItem.swift in Sources */,
 				4626C5FD251C438A00E973E7 /* MovieDetailView.swift in Sources */,
-				46F987B8252536F600FFBB42 /* SummaryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

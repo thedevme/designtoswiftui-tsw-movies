@@ -9,12 +9,29 @@ import SwiftUI
 
 struct TicketingView: View {
     var body: some View {
-        ScrollView {
+        VStack(spacing: 0) {
             VStack {
-                HeaderView()
                 MovieDetailView()
+                    .padding(.bottom, 20)
+                TicketsView()
             }
+            .padding(.horizontal)
+            .padding(.top, 100)
+            .background(Color.baseBackground)
+            
+            Spacer()
+            
+            CheckoutProgressView()
         }
+        .background(Color.baseBackground)
+        .edgesIgnoringSafeArea(.all)
+    }
+    
+    var header: some View {
+        HStack(spacing: 0) {
+            Text("SELECT").custom(font: .bold, size: 18)
+            Text("TICKETS").custom(font: .ultralight, size: 18)
+        }.foregroundColor(.baseText)
     }
 }
 

@@ -18,6 +18,7 @@ extension Color {
     static let baseSecondaryBackground = Color("baseSecondaryBackground")
     static let baseText = Color("baseText")
     static let baseAccent = Color("baseAccent")
+    static let baseAccentText = Color("baseAccentText")
 }
 
 extension UIColor {
@@ -29,6 +30,7 @@ extension UIColor {
     static let baseSecondaryBackground = Color(named: "baseSecondaryBackground")
     static let baseText = Color(named: "baseText")
     static let baseAccent = Color(named: "baseAccent")
+    static let baseAccentText = Color(named: "baseAccentText")
 
     private static func Color(named key: String) -> UIColor {
        if let color = UIColor(named: key, in: .main, compatibleWith: nil) {
